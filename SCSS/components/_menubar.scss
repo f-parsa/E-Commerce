@@ -1,0 +1,31 @@
+.menu-bar {
+    width: 40%;
+    height: 57px;
+    float: right;
+
+    ul {
+        display: inline-flex;
+        float: right;
+
+        li {
+            border-left: 1px solid #fff;
+            list-style-type: none;
+            padding: 15px 35px;
+            text-align: center;
+            background-color: orange;
+            cursor: pointer;
+
+            a {
+                font-size: 16px;
+                font-weight: bold;
+                color: #fff;
+                text-decoration: none;
+                
+                .fa-shopping-basket {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+}

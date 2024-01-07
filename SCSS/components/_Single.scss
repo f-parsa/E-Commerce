@@ -1,0 +1,61 @@
+.single-product {
+    margin-top: 70px;
+
+    .fa {
+        color: orange;
+    }
+    .col-md-7 {
+        h2 {
+            color: #555;
+        }
+    }
+
+    .price {
+        color: orange;
+        font-size: 26px;
+        font-weight: bold;
+        padding-top: 20px;
+    }
+
+    input {
+        border: 1px solid #ccc;
+        font-weight: bold;
+        height: 33px;
+        text-align: center;
+        width: 30px;
+    }
+
+    .btn-primary {
+        background: orange;
+        color: #fff;
+        font-size: 15px;
+        margin-left: 20px;
+        border: none;
+        box-shadow: none;
+    }
+}
+
+.new-arrival {
+    background: green;
+    width: 50px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.product-description {
+    margin-left: 9%;
+    h6 {
+        margin-top: 50px;
+        color: orange;
+    }
+
+    p {
+        margin-top: 30px;
+    }
+
+    hr {
+        margin-bottom: 50px;
+    }
+}

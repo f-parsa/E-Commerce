@@ -1,0 +1,56 @@
+@media only screen and (max-width: 980px) {
+    .top-nav-bar {
+        height: 118px;
+        border-bottom: 0;
+
+        .search-box {
+            width: 100%;
+            #menu-btn {
+                display: block;
+            }
+        }
+
+        .menu-bar {
+            width: 100%;
+
+            ul {
+                margin: 10px 0px;
+                width: 100%;
+                padding-left: 0;
+
+                li {
+                    height: 57px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .header {
+
+        .side-menu {
+            width: 34%;
+            z-index: 20;
+            top: 133px;
+            position: fixed;
+            font-size: 12px;
+            display: none;
+            ul {
+                li {
+                    ul{
+                        top: 133px;
+                    }
+
+                    &:hover ul {
+                        margin-left: 27%;
+                    }
+                }
+            }
+        }
+    }
+
+    .slider {
+        width: 100%;
+        margin-left: 0;
+    }
+}
